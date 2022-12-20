@@ -16,3 +16,19 @@ Fahsai: Next Monday....that is OK!!! I'm looking forward to watching Star Wars V
 Luke Skywalker: May the Force be with you krub
 Fahsai: 555+ see you Next Monday. Bye Bye \(^ ^)/
 */
+#include <iostream>
+#include <string>
+using namespace std;
+
+string name(string x , string y){
+}
+
+int main(){
+    string a,b,c,d,e,f;
+    cout << "Fahsai: Sawadee ka...Can you tell me your name?" << "\n" << "?????: ";
+    cin >> a;
+    
+    cout << "Fahsai: Wow!!! " << name(a,b) << " is a really cool name." ;
+
+    return 0;
+}
