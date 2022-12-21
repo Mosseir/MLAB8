@@ -1,8 +1,25 @@
 #include<iostream>
 using namespace std;
 
-char before(char x){
+char before(char i){
 	//Write your function definition here
+	//ไม่ต้องเติม function main()
+    int a = i ;
+	char b = a ;
+	if(a <= 91 && a > 48)
+	{
+		 a--;
+		 if(a < 65)
+		 {
+			a += 26 ;
+		 }
+	
+	}else 
+		{
+			a = 48 ;
+		}
+		 b= a ;
+		return b ;
 }
 
 int main(){
